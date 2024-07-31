@@ -2,6 +2,10 @@
 
 # MY HYPRLAND DESKTOP CONFIGS
 
+*last updated 07/31/2024 @Siracusant*
+
+- - -
+
 ## Config / Taking effect
 
 **Before do it, please make sure that your hyprland and other applications have installed and run properly.**
@@ -55,35 +59,37 @@
 - Press `Esc` to exit the insert mode and enter `:wq` to save.
 - Now, you can play with yourself pleasantly :)
 
+**Tip:** *The above operations can be performed automatically by running the setup.sh script file in the HyprConfigs directory. ("HyprConfigs/setup.sh") *
 
 ## Hypr / Global Hot Keys
-1. Evoke the terminal `Alt + T` or `Alt + A`;
-2. The window is full-screen `Alt + F` or `F11`;
-3. The window floats `Alt + V`;
-4. Window miniature `Alt + P`;
-5. Resize the program window `Alt + Right-click and drag`;
-6. Move the program window `Alt + Left-click and drag`;
-7. Copy `Ctrl + Shift + C` or `Ctrl + C`;
-8. Paste `Ctrl + Shift + V` or `Ctrl + V`;
-9. Kill process `Alt + C` or `Ctrl + C`;
-10. Files `Alt + E`;
-11. Open tofi `Alt + R`;
-12. Lock your screen `Alt + L`;
-13. Enter different work space `Alt + 1`,`Alt + 2`...`Alt + 10` or `Alt + Scrolling`;
-14. Kill all waybar `Alt + Ctrl + Super + R`;
-15. Quit hyprland env `Alt + Shift + M`;
-16. Screenshot `Alt + Shift + S` or `PrintScreen`;
-17. Fullscreen screenshot `Alt + Shift + W`;
-18. OBS: start `Alt + Shift + T`;
-19. OBS: stop  `Alt + Shift + P`;
-20. Turn up the volume `Fn + F12` or `F12` *(It depends on your keyboard design)*;
-21. Turn down the volume `Fn + F11` or `F11` *(It depends on your keyboard design)*;
-22. Mute `Fn + F10` or `F10` *(It depends on your keyboard design)*;
-23. Enable fcitx5-rime `Super + Space`;
-24. Fill `Tab`;
-25. Delete by groups `Alt + BackSpace` or `Ctrl + BackSpace`
-26. Move cursor by groups `Ctrl + ↑ ↓ ← →`
-27. Select by moving cursor `Shift + ↑ ↓ ← →`;
+1. Evoke the Alacritty terminal `Alt + T` or `Alt + A`;
+2. Evoke the Kitty terminal `Alt + K`;
+3. The window is full-screen `Alt + F` or `F11`;
+4. The window floats `Alt + V`;
+5. Window miniature `Alt + P`;
+6. Resize the program window `Alt + Right-click and drag`;
+7. Move the program window `Alt + Left-click and drag`;
+8. Copy `Ctrl + Shift + C` or `Ctrl + C`;
+9. Paste `Ctrl + Shift + V` or `Ctrl + V`;
+10. Kill process `Alt + C` or `Ctrl + C`;
+11. Files `Alt + E`;
+12. Open tofi `Alt + R`;
+13. Lock your screen `Alt + L`;
+14. Enter different work space `Alt + 1`,`Alt + 2`...`Alt + 10` or `Alt + Scrolling`;
+15. Kill all waybar `Alt + Ctrl + Super + R`;
+16. Quit hyprland env `Alt + Shift + M`;
+17. Screenshot `Alt + Shift + S` or `PrintScreen`;
+18. Fullscreen screenshot `Alt + Shift + W`;
+19. OBS: start `Alt + Shift + T`;
+20. OBS: stop  `Alt + Shift + P`;
+21. Turn up the volume `Fn + F12` or `F12` *(It depends on your keyboard design)*;
+22. Turn down the volume `Fn + F11` or `F11` *(It depends on your keyboard design)*;
+23. Mute `Fn + F10` or `F10` *(It depends on your keyboard design)*;
+24. Enable fcitx5-rime `Super + Space`;
+25. Fill `Tab`;
+26. Delete by groups `Alt + BackSpace` or `Ctrl + BackSpace`
+27. Move cursor by groups `Ctrl + ↑ ↓ ← →`
+28. Select by moving cursor `Shift + ↑ ↓ ← →`;
 
 ## Hypr / Images Locations
 1. **Desktop Wallpaper** : `~/Pictures/defaultPaper.png`
