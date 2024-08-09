@@ -27,7 +27,7 @@
         "interval": 1,
         "format": "{:%H:%M:%S %m-%d-%Y}",
         "format-alt": "{:%H:%M:%S %m-%d-%Y}",
-        "tooltip-format": "LOST TIME IS NEVER FOUND AGAIN, AND WHAT WE CALL TIME ENOUGH ALWAYS PROVES LITTLE ENOUGH."
+        "tooltip-format": "Take a break, write some code, do what you do best."
     },
     "cpu": {
         "interval": 1,
@@ -43,7 +43,7 @@
     "network": {
         "interval": 1,
         "format-wifi": "{essid} ({signalStrength}%)",
-        "format-ethernet": "{ipaddr}/{cidr}",
+        "format-ethernet": "{ifname}",
         "format-linked": "No IP ({ifname})",
         "format-disconnected": "Disconnected",
         "tooltip-format": "{ifname} {ipaddr}/{cidr} via {gwaddr}",

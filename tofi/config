@@ -13,7 +13,8 @@
 	# characters not in the chosen font will fail to render.
 	#
 	# Otherwise, fonts are interpreted in Pango format.
-	font = "Intel One Mono"
+	
+    font = "Comfortaa"
 
 	# Point size of text.
 	font-size = 16
@@ -142,7 +143,7 @@
 ### Text layout
 #
 	# Prompt to display.
-	prompt-text = "run: "
+	prompt-text = "execute: "
 
 	# Extra horizontal padding between prompt and input.
 	prompt-padding = 0
@@ -155,7 +156,7 @@
 	num-results = 0
 
 	# Spacing between results in pixels. Can be negative.
-	result-spacing = 2
+	result-spacing = 5
 
 	# List results horizontally.
 	horizontal = false
@@ -167,8 +168,8 @@
 ### Window theming
 #
 	# Width and height of the window. Can be pixels or a percentage.
-	width = 40%
-	height = 40%
+	width = 32%
+	height = 64%
 
 	# Window background color
 	background-color = #2D2A2E33
@@ -180,13 +181,13 @@
 	outline-color = #080800
 
 	# Width of the border in pixels.
-	border-width = 1
+	border-width = 2
 
 	# Border color
 	border-color = #cceeff
 
 	# Radius of window corners in pixels.
-	corner-radius = 18
+	corner-radius = 16
 
 	# Padding between borders and text. Can be pixels or a percentage.
 	padding-top = 6

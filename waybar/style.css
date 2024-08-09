@@ -1,8 +1,7 @@
 * {
-    /* `otf-font-awesome` is required to be installed for icons */
-    font-family: "IntelOne Mono", "Font Awesome 6 Free";
+    font-family: 'Ubuntu Mono', 'Comfortaa';
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
 
     border-radius: 18px;
     text-shadow: none;
@@ -45,15 +44,13 @@ window#waybar.hidden {
 }
 
 #workspaces button {
-    border: none;
     padding: 0 6px;
-    background: transparent;
+    background-color: transparent;
     color: #ffffff;
-    margin-left: 3px;
 }
 
 #workspaces button:hover {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.320);
 }
 
 #workspaces button.empty {
@@ -74,12 +71,10 @@ window#waybar.hidden {
     border-bottom: 3px solid #ffffff;
 }
 
-/* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > * {
     margin-left: 12px;
 }
 
-/* If workspaces is the rightmost module, omit right margin */
 .modules-right > widget:last-child > * {
     margin-right: 12px;
 }
@@ -105,7 +100,7 @@ window#waybar.hidden {
 }
 
 #network {
-    background-color: #8bdeff;
+    background-color: #50d3ff;
     color: #000000;
 }
 
@@ -114,7 +109,7 @@ window#waybar.hidden {
 }
 
 #window {
-    font-family: 'IntelOne Mono', 'Noto Sans CJK SC', sans-serif;
+    font-family: 'Ubuntu Mono', 'Comfortaa', sans-serif;
     font-weight: 400;
     background-color: #cbecff;
     color: #000000;
